@@ -1,0 +1,106 @@
+﻿/*the keyword before the braces is the selector*/
+li {
+    color: dodgerblue;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#main-title {
+    font-size: 5rem;
+}
+
+.demo-class {
+    background-color: greenyellow;
+}
+
+/* * is a wildcard operator that affects the whole page*/
+/* there are internet safe fonts. Comic Sans is one of them */
+* {
+    font-family: 'Courier', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: limegreen;
+}
+
+ul {
+    width: 300px;
+    padding-left: 60px;
+}
+
+section {
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-right: 32px;
+    margin-bottom: 4px;
+    padding: 8px 16px 4px;
+}
+
+h3 {
+    color: red;
+}
+
+.section-1 {
+    background-color: rgb(255, 255, 255, 0.30);
+    border-top: 5px green groove;
+    border-bottom: 5px green groove;
+    padding: 0% 20%;
+    margin: 10px;
+}
+
+    .section-1 li {
+        font-family: Tahoma;
+        font-weight: 800;
+        font-style: italic;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+.section-2 {
+    background-color: rgb(255, 255, 255, 0.40);
+    padding: 0% 20%;
+    margin: 10px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.flex-container li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    transform: translateY(4px);
+    color: mediumpurple;
+}
+
+img {
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+}

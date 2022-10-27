@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Mickey D" />
+    <title>My Profile - Game</title>
+    <link href="profileStyle.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul class="flex-container">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="projects.html">Project</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="https://www.linkedin.com/in/smashingchap/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <div id="title-container">
+        <h1 id="greeting" onmouseover="changeText()">Hello There</h1>
+    </div>
+
+    <button onclick="greeting()">Say hello!</button>
+
+    <hr />
+
+    <section id="game-container">
+        <h2>Pop the Balloons!</h2>
+        <p>score: <span id="score">0</span></p>
+    </section>
+
+</body>
+</html>
